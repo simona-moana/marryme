@@ -1,6 +1,21 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            img {
+                max-width: 100%; /* make sure image doesn't exceed container width */
+                height: auto; /* maintain aspect ratio */
+            }
+
+            @media only screen and (min-width: 768px) {
+                img {
+                    max-width: none; /* override previous style */
+                    width: 100%; /* make image fill container width */
+                    height: auto; /* maintain aspect ratio */
+                }
+            }
+        </style>
         <title>PLEASE RESPOND BEFORE 15.04.23</title>
         <link rel="stylesheet" href="style.css">
         
