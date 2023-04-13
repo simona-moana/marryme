@@ -1557,4 +1557,8 @@ select {
 		height: 56vw;
 	}
 }
-@media only screen and (max-width: 34em) {}
+@media (max-width: 34em) {
+  .rswp-send-del {
+    font-size: 1em !important;
+  }
+}
