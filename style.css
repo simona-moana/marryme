@@ -1557,3 +1557,4 @@ select {
 		height: 56vw;
 	}
 }
+@media only screen and (max-width: 34em) {}
